@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    color:#fefefe;
+    background-color:#181818;
+    background-image: url(./../img/unsplash1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.welcome{ /*쩜 찍고 웰컴 찾아야 클래스 웰컴을 찾는걸로 인식한다. 그냥 웰컴은 태그를 찾는 것으로 인식 */
+font-size: 6em; /*상속값은 16px이다. 여기서 6을 곱했으니 96*/
+text-align: center; /*글자만 움직였을 뿐 paragraph는 움직인 게 아니다. bgc를 보면 가운데만 칠해진게 아니라는 걸 알 수 있다.*/
+background-color:hsla(110,50%,50%,0.5);
+}
