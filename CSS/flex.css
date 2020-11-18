@@ -1,0 +1,23 @@
+body{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center; /*플렉스 관련 옵션*/
+
+    height:100vh; /*높이는 퍼센티지를 못쓴다*/
+    margin: 0;
+    color:#fefefe;
+    background-color:#181818;
+    background-image: url(./../img/unsplash1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.box{ /*쩜 찍고 웰컴 찾아야 클래스 웰컴을 찾는걸로 인식한다. 그냥 웰컴은 태그를 찾는 것으로 인식 */
+    width: 100%;
+    margin: 0;
+    font-size: 6em; /*상속값은 16px이다. 여기서 6을 곱했으니 96*/
+    text-align: center; /*글자만 움직였을 뿐 paragraph는 움직인 게 아니다. bgc를 보면 가운데만 칠해진게 아니라는 걸 알 수 있다.*/
+    background-color:hsla(110,50%,50%,0.5);
+}
