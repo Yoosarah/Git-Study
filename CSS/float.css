@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+.container{
+    width:80%;
+    padding:0 20px;
+    margin:0 auto;
+    
+}
+.header{
+    height: 20vh;
+    background-color:pink;
+    width:100%;
+}
+.wrapper{
+    width: 100;
+    background-color:blue;
+}
+
+.wrapper::after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.navigation{
+    background-color: orange;
+    width: 25%;
+    float:right;
+    height: 70vh;
+}
+.content{
+    width: 75%;
+    float:left;
+    background-color:green;
+}
+.main{
+    width:70%;
+    height:70vh;
+    background-color:blue;
+    float:right;
+}
+.content::after{
+content:"";
+background-color:rgb(195, 7, 212);
+clear:both;
+display:block;
+}
+
+.sidebar{
+    width: 30%;
+    height: 70vh;
+    background-color:orangered;
+    float:left;
+}
+.footer{
+    width:100%;
+    height: 20vh;
+    clear:both;
+    background-color:yellow;
+}
